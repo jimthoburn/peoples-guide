@@ -3,6 +3,8 @@ layout: default
 title: Free and Low Cost Food
 ---
 
+[< Back](../)
+
 # Food Pantries and Free Meal Programs
 
 Food pantries are places that give food to people in need. Most food pantries are volunteer private organizations that can make their own rules about who can be served. Most of them are limited to serving people in certain areas and for one to four times a month. They may require some kind of identi cation and proof that you are low income. Generally, food pantries never have as much as is needed. Foods distributed most often include canned foods, rice, beans, bread, cereal, and oc- casionally produce items.

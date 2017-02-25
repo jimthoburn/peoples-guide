@@ -106,6 +106,14 @@
 		font-style: italic;
 	}
 
+	.topics h2 {
+		margin-bottom: 0;
+	}
+
+	.topics p {
+		margin-top: 0;
+	}
+
 	/* Shrink images to fit the available space */
 	img {
 		max-width: 100%;
