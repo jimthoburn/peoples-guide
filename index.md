@@ -1,11 +1,13 @@
 ---
 layout: default
-title: The People's Guide
+title: The People’s Guide to Welfare, Health & Other Services
 ---
 
-# Welcome to the People's Guide. We are here for you!
+# The People’s Guide to Welfare, Health & Other Services
 
-The People’s Guide gives practical information about how to get food, money, housing, health care and other help from government programs and community services if you live in Los Angeles County and need help in hard times. You do not have to read the entire book, just and the topic you need in the table of contents. However, people who are eligible for one kind of help often qualify for other programs as well, so read the entire booklet. *[Read more...](topics/introduction.html)*
+## Information about opportunities to help you get through hard times
+
+The People’s Guide gives practical information about how to get food, money, housing, health care and other help from government programs and community services if you live in Los Angeles County and need help in hard times. You do not have to read the entire book, just and the topic you need in the table of contents. However, people who are eligible for one kind of help often qualify for other programs as well, so read the entire booklet. *[Read more...](topics/introduction)*
 
 - - -
 
@@ -21,10 +23,4 @@ The People’s Guide gives practical information about how to get food, money, h
 		<p>{{ data['description'] }}</p>
 	{% endif %}
 	{% endfor %}
-
-<!-- ## [Introduction](topics/introduction.html)
-
-## [Free and Low Cost Food](topics/free-and-low-cost-food.html)
-*Food pantries, meals for seniors, community gardens*
- -->
 </div>
