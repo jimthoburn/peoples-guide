@@ -16,7 +16,7 @@ The People’s Guide gives practical information about how to get food, money, h
 
 	{% for data in data_list %}
 
-	<h2><a href="{{ data.url }}">{{ data['title'] }}</a></h2>
+	<h2><a href="{{ site.baseurl }}{{ data.url }}">{{ data['title'] }}</a></h2>
 	{% if data['description'] %} 
 		<p>{{ data['description'] }}</p>
 	{% endif %}
