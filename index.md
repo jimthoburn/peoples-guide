@@ -9,11 +9,22 @@ The People’s Guide gives practical information about how to get food, money, h
 
 - - -
 
-<div class="topics" markdown="1">
+<div class="topics">
 
-## [Introduction](topics/introduction.html)
+	{% assign data_collection = site.collections | where: "label", "topics" | first %}
+	{% assign data_list = data_collection.docs | sort: "weight" %}
+
+	{% for data in data_list %}
+
+	<h2><a href="{{ data.url }}">{{ data['title'] }}</a></h2>
+	{% if data['description'] %} 
+		<p>{{ data['description'] }}</p>
+	{% endif %}
+	{% endfor %}
+
+<!-- ## [Introduction](topics/introduction.html)
 
 ## [Free and Low Cost Food](topics/free-and-low-cost-food.html)
 *Food pantries, meals for seniors, community gardens*
-
+ -->
 </div>

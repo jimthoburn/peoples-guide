@@ -1,6 +1,8 @@
 ---
 layout: topic
 title: Free and Low Cost Food
+description: Food pantries, meals for seniors, community gardens
+weight: 2
 ---
 # Food Pantries and Free Meal Programs
 
