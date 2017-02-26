@@ -7,6 +7,26 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/css/guide.css" />
 </head>
 <body>
-{{ content }}
+
+	<nav>
+		<a href="{{ site.baseurl }}/">
+			<img src="{{ site.baseurl }}/assets/logo.svg" alt="People's Guide" width="40" />
+			People's Guide
+		</a>
+
+		<form role="search" action="https://duckduckgo.com/" method="get">
+		    <input type="hidden" name="sites" value="foodoasisla.github.io/peoples-guide">
+		    <p>
+		        <label>
+		            <input type="search" name="q" placeholder="Need Help?">
+		        </label>
+        		<button type="submit">Search</button>
+		    </p>
+		</form>
+	</nav>
+	<main>
+		{{ content }}
+	</main>
+
 </body>
 </html>
