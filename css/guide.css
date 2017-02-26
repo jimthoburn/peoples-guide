@@ -37,12 +37,14 @@
 		}
 	}
 
-	main {
+	main,
+	footer {
 		padding: 1.5em;
 	}
 
 	@media (min-width: 30em) {
-		main {
+		main,
+		footer {
 			padding-left: 3em; /* @page-margin-widescreen */
 			padding-right: 3em; /* @page-margin-widescreen */
 			padding-bottom: 3em; /* @page-margin-widescreen */
